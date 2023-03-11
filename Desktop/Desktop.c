@@ -29,6 +29,10 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
 
     // Initialize global strings
     LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);
+
+    // AllocConsole();
+    // puts("Hello there!");
+
     LoadStringW(hInstance, IDC_DESKTOP, szWindowClass, MAX_LOADSTRING);
     MyRegisterClass(hInstance);
 
